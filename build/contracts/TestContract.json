@@ -111,14 +111,21 @@
   "ast": {
     "absolutePath": "/Users/tylerfarris/Documents/Alchemy/first_coin/contracts/TestContract.sol",
     "exportedSymbols": {
-      "TestContract": [89]
+      "TestContract": [
+        89
+      ]
     },
     "id": 90,
     "nodeType": "SourceUnit",
     "nodes": [
       {
         "id": 1,
-        "literals": ["solidity", "^", "0.5", ".16"],
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".16"
+        ],
         "nodeType": "PragmaDirective",
         "src": "37:24:0"
       },
@@ -129,7 +136,9 @@
         "documentation": null,
         "fullyImplemented": true,
         "id": 89,
-        "linearizedBaseContracts": [89],
+        "linearizedBaseContracts": [
+          89
+        ],
         "name": "TestContract",
         "nodeType": "ContractDefinition",
         "nodes": [
@@ -373,7 +382,10 @@
                       "isPure": false,
                       "kind": "structConstructorCall",
                       "lValueRequested": false,
-                      "names": ["name", "price"],
+                      "names": [
+                        "name",
+                        "price"
+                      ],
                       "nodeType": "FunctionCall",
                       "src": "350:66:0",
                       "typeDescriptions": {
@@ -529,7 +541,9 @@
               "src": "634:180:0",
               "statements": [
                 {
-                  "assignments": [42],
+                  "assignments": [
+                    42
+                  ],
                   "declarations": [
                     {
                       "constant": false,
@@ -1204,13 +1218,20 @@
     "attributes": {
       "absolutePath": "/Users/tylerfarris/Documents/Alchemy/first_coin/contracts/TestContract.sol",
       "exportedSymbols": {
-        "TestContract": [89]
+        "TestContract": [
+          89
+        ]
       }
     },
     "children": [
       {
         "attributes": {
-          "literals": ["solidity", "^", "0.5", ".16"]
+          "literals": [
+            "solidity",
+            "^",
+            "0.5",
+            ".16"
+          ]
         },
         "id": 1,
         "name": "PragmaDirective",
@@ -1218,12 +1239,18 @@
       },
       {
         "attributes": {
-          "baseContracts": [null],
-          "contractDependencies": [null],
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
           "contractKind": "contract",
           "documentation": null,
           "fullyImplemented": true,
-          "linearizedBaseContracts": [89],
+          "linearizedBaseContracts": [
+            89
+          ],
           "name": "TestContract",
           "scope": 90
         },
@@ -1346,7 +1373,9 @@
               "implemented": true,
               "isConstructor": false,
               "kind": "function",
-              "modifiers": [null],
+              "modifiers": [
+                null
+              ],
               "name": "create",
               "scope": 89,
               "stateMutability": "nonpayable",
@@ -1474,7 +1503,9 @@
                               {
                                 "attributes": {
                                   "argumentTypes": null,
-                                  "overloadedDeclarations": [null],
+                                  "overloadedDeclarations": [
+                                    null
+                                  ],
                                   "referencedDeclaration": 10,
                                   "type": "mapping(address => struct TestContract.Test storage ref)",
                                   "value": "tests"
@@ -1498,7 +1529,9 @@
                                   {
                                     "attributes": {
                                       "argumentTypes": null,
-                                      "overloadedDeclarations": [null],
+                                      "overloadedDeclarations": [
+                                        null
+                                      ],
                                       "referencedDeclaration": 251,
                                       "type": "msg",
                                       "value": "msg"
@@ -1525,7 +1558,10 @@
                               "isPure": false,
                               "isStructConstructorCall": true,
                               "lValueRequested": false,
-                              "names": ["name", "price"],
+                              "names": [
+                                "name",
+                                "price"
+                              ],
                               "type": "struct TestContract.Test memory",
                               "type_conversion": false
                             },
@@ -1542,7 +1578,9 @@
                                       "typeString": "uint256"
                                     }
                                   ],
-                                  "overloadedDeclarations": [null],
+                                  "overloadedDeclarations": [
+                                    null
+                                  ],
                                   "referencedDeclaration": 6,
                                   "type": "type(struct TestContract.Test storage pointer)",
                                   "value": "Test"
@@ -1554,7 +1592,9 @@
                               {
                                 "attributes": {
                                   "argumentTypes": null,
-                                  "overloadedDeclarations": [null],
+                                  "overloadedDeclarations": [
+                                    null
+                                  ],
                                   "referencedDeclaration": 12,
                                   "type": "string memory",
                                   "value": "name"
@@ -1566,7 +1606,9 @@
                               {
                                 "attributes": {
                                   "argumentTypes": null,
-                                  "overloadedDeclarations": [null],
+                                  "overloadedDeclarations": [
+                                    null
+                                  ],
                                   "referencedDeclaration": 14,
                                   "type": "uint256",
                                   "value": "price"
@@ -1633,7 +1675,9 @@
               "implemented": true,
               "isConstructor": false,
               "kind": "function",
-              "modifiers": [null],
+              "modifiers": [
+                null
+              ],
               "name": "getTest",
               "scope": 89,
               "stateMutability": "view",
@@ -1738,7 +1782,9 @@
                 "children": [
                   {
                     "attributes": {
-                      "assignments": [42]
+                      "assignments": [
+                        42
+                      ]
                     },
                     "children": [
                       {
@@ -1782,7 +1828,9 @@
                           {
                             "attributes": {
                               "argumentTypes": null,
-                              "overloadedDeclarations": [null],
+                              "overloadedDeclarations": [
+                                null
+                              ],
                               "referencedDeclaration": 10,
                               "type": "mapping(address => struct TestContract.Test storage ref)",
                               "value": "tests"
@@ -1794,7 +1842,9 @@
                           {
                             "attributes": {
                               "argumentTypes": null,
-                              "overloadedDeclarations": [null],
+                              "overloadedDeclarations": [
+                                null
+                              ],
                               "referencedDeclaration": 34,
                               "type": "address",
                               "value": "addr"
@@ -1844,7 +1894,9 @@
                               {
                                 "attributes": {
                                   "argumentTypes": null,
-                                  "overloadedDeclarations": [null],
+                                  "overloadedDeclarations": [
+                                    null
+                                  ],
                                   "referencedDeclaration": 42,
                                   "type": "struct TestContract.Test storage pointer",
                                   "value": "test"
@@ -1873,7 +1925,9 @@
                               {
                                 "attributes": {
                                   "argumentTypes": null,
-                                  "overloadedDeclarations": [null],
+                                  "overloadedDeclarations": [
+                                    null
+                                  ],
                                   "referencedDeclaration": 42,
                                   "type": "struct TestContract.Test storage pointer",
                                   "value": "test"
@@ -1913,7 +1967,9 @@
               "implemented": true,
               "isConstructor": false,
               "kind": "function",
-              "modifiers": [null],
+              "modifiers": [
+                null
+              ],
               "name": "updateTest",
               "scope": 89,
               "stateMutability": "nonpayable",
@@ -2054,7 +2110,9 @@
                                   {
                                     "attributes": {
                                       "argumentTypes": null,
-                                      "overloadedDeclarations": [null],
+                                      "overloadedDeclarations": [
+                                        null
+                                      ],
                                       "referencedDeclaration": 10,
                                       "type": "mapping(address => struct TestContract.Test storage ref)",
                                       "value": "tests"
@@ -2066,7 +2124,9 @@
                                   {
                                     "attributes": {
                                       "argumentTypes": null,
-                                      "overloadedDeclarations": [null],
+                                      "overloadedDeclarations": [
+                                        null
+                                      ],
                                       "referencedDeclaration": 56,
                                       "type": "address",
                                       "value": "addr"
@@ -2088,7 +2148,9 @@
                           {
                             "attributes": {
                               "argumentTypes": null,
-                              "overloadedDeclarations": [null],
+                              "overloadedDeclarations": [
+                                null
+                              ],
                               "referencedDeclaration": 58,
                               "type": "uint256",
                               "value": "newPrice"
@@ -2150,7 +2212,9 @@
               "implemented": true,
               "isConstructor": false,
               "kind": "function",
-              "modifiers": [null],
+              "modifiers": [
+                null
+              ],
               "name": "delteTest",
               "scope": 89,
               "stateMutability": "nonpayable",
@@ -2254,7 +2318,9 @@
                               {
                                 "attributes": {
                                   "argumentTypes": null,
-                                  "overloadedDeclarations": [null],
+                                  "overloadedDeclarations": [
+                                    null
+                                  ],
                                   "referencedDeclaration": 10,
                                   "type": "mapping(address => struct TestContract.Test storage ref)",
                                   "value": "tests"
@@ -2266,7 +2332,9 @@
                               {
                                 "attributes": {
                                   "argumentTypes": null,
-                                  "overloadedDeclarations": [null],
+                                  "overloadedDeclarations": [
+                                    null
+                                  ],
                                   "referencedDeclaration": 75,
                                   "type": "address",
                                   "value": "addr"
@@ -2345,12 +2413,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x03045245a2b4e55BD94641AAF62fB8811F7A4BFA",
-      "transactionHash": "0xf4ccc5af67642542d84c4018d72c937282fb704eddd6b7ce24fa4642613cc0ee"
+      "address": "0x80538E60f1E01ECeBE37345BA5a12D6d4d2Efc2C",
+      "transactionHash": "0x2985a25fe363b867399afa3717078e8f3526a5c703953f13b65f9dd2eceea942"
     }
   },
   "schemaVersion": "3.3.4",
-  "updatedAt": "2021-04-22T00:56:57.462Z",
+  "updatedAt": "2021-04-22T18:07:41.762Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}
