@@ -14,8 +14,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "truffle-hdwallet-provider": "^1.0.1",
     "@slack/bolt": "^3.3.0",
-    "@truffle/hdwallet-provider": "^1.2.6",
     "bip39": "^3.0.3",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
