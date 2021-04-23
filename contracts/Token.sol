@@ -14,11 +14,11 @@ contract Token {
     }
 
     function name() public view returns(string memory) {
-        return "TokenTest";
+        return "TokenDemo";
     }
 
     function symbol() public view returns(string memory) {
-        return "TT";
+        return "TM";
     }
 
     function decimals() public view returns(uint8) {
