@@ -29,7 +29,7 @@ contract Token {
         return _totalSupply;
     }
 
-    function balanceOf(address _owner) public returns(uint) {
+    function balanceOf(address _owner) public view returns(uint) {
         return balances[_owner];
     }
 
@@ -53,6 +53,9 @@ contract Token {
     function allowance(address _owner, address _spender) public view returns(uint remaining) {
         return 0;
     }
-
+    function createWallet(){
+        web3.eth.accounts.wallet.create(numberOfAccounts [, entropy]);
 
     }
+
+}

@@ -1,5 +1,7 @@
 require('dotenv').config();
+const { generateMnemonic } = require('bip39');
 const HDWalletProvider = require('truffle-hdwallet-provider');
+
 
 // // /**
 //  * Use this file to configure your truffle project. It's seeded with some
@@ -86,7 +88,7 @@ module.exports = {
     ropsten: {
       provider: function() {
         return new HDWalletProvider(
-          process.env.MNEMONIC, 
+          process.env.MNEMONIC,
           process.env.ROPSTEN_URL)
       },
       network_id: 3,
